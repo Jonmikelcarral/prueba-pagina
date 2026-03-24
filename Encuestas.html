@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuestas | Farmacia Jon Carral Tellitu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="index.html" class="navbar-brand">
+                <span>🏥</span>
+                Farmacia Jon Carral Tellitu
+            </a>
+            <ul class="navbar-menu" id="navbarMenu">
+                <li><a href="index.html" class="navbar-link">Inicio</a></li>
+                <li><a href="secciones.html" class="navbar-link">Secciones</a></li>
+                <li><a href="servicios.html" class="navbar-link">Servicios</a></li>
+                <li><a href="ofertas.html" class="navbar-link">Ofertas</a></li>
+                <li><a href="noticias.html" class="navbar-link">Noticias</a></li>
+                <li><a href="encuestas.html" class="navbar-link active">Encuestas</a></li>
+                <li><a href="contacto.html" class="navbar-link btn-contact">Contacto</a></li>
+            </ul>
+            <div class="navbar-toggle" id="navbarToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-title">Tu Opinión Nos Importa</h1>
+            <p class="page-subtitle">Ayúdanos a mejorar nuestros servicios</p>
+        </div>
+    </header>
+
+    <main class="section">
+        <div class="container">
+            <p class="intro-text">
+                Tu feedback es fundamental para seguir cuidando de ti y tu familia. Participa en nuestras encuestas y entra en el sorteo mensual.
+            </p>
+
+            <div class="encuestas-container">
+                <!-- Encuesta 1 -->
+                <article class="card encuesta-card animate-fadeInUp stagger-1">
+                    <span class="badge badge-success">Activa</span>
+                    <h3>Satisfacción del Cliente 2026</h3>
+                    <p>Evalúa tu experiencia en nuestra farmacia: atención, productos, limpieza y tiempo de espera.</p>
+                    <div class="encuesta-meta">
+                        <span>⏱️ 5 minutos</span>
+                        <span>🎁 Participa en sorteo</span>
+                    </div>
+                    <button class="btn btn-primary" style="width: 100%;" onclick="alert('Encuesta disponible próximamente')">Participar Ahora</button>
+                </article>
+
+                <!-- Encuesta 2 -->
+                <article class="card encuesta-card animate-fadeInUp stagger-2">
+                    <span class="badge badge-success">Activa</span>
+                    <h3>Nuevos Servicios</h3>
+                    <p>¿Qué servicios te gustaría que implementáramos? Test de alergias, nutrición, podología...</p>
+                    <div class="encuesta-meta">
+                        <span>⏱️ 3 minutos</span>
+                        <span>📋 12 preguntas</span>
+                    </div>
+                    <button class="btn btn-primary" style="width: 100%;" onclick="alert('Encuesta disponible próximamente')">Participar Ahora</button>
+                </article>
+
+                <!-- Encuesta 3 -->
+                <article class="card encuesta-card proxima animate-fadeInUp stagger-3">
+                    <span class="badge badge-warning">Próximamente</span>
+                    <h3>Calidad de Productos</h3>
+                    <p>Encuesta sobre la satisfacción con marcas y productos específicos de nuestras secciones.</p>
+                    <div class="encuesta-meta">
+                        <span>📅 Disponible en Mayo</span>
+                    </div>
+                    <button class="btn" style="width: 100%; background: var(--gray); color: var(--gray-dark); cursor: not-allowed;" disabled>Próximamente</button>
+                </article>
+            </div>
+
+            <!-- Resultados -->
+            <div class="card animate-fadeInUp" style="margin: 3rem 0;">
+                <h2 style="text-align: center; color: var(--primary); margin-bottom: 2rem;">📊 Resultados Anteriores</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-numero">4.8</div>
+                        <div class="stat-label">Valoración Media</div>
+                        <div class="stat-barra">
+                            <div class="stat-progreso" style="width: 96%;"></div>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-numero">95%</div>
+                        <div class="stat-label">Recomendarían</div>
+                        <div class="stat-barra">
+                            <div class="stat-progreso" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-numero">2.5k</div>
+                        <div class="stat-label">Encuestas 2025</div>
+                        <div class="stat-barra">
+                            <div class="stat-progreso" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Agradecimiento -->
+            <div class="promo-banner animate-fadeInUp" style="background: linear-gradient(135deg, var(--success), #2ecc71);">
+                <h2>🙏 Gracias por tu Colaboración</h2>
+                <p>Todos los participantes entran en el sorteo mensual de un <strong>kit de cuidado personal</strong> valorado en 50€</p>
+            </div>
+
+            <!-- Redes sociales -->
+            <div class="redes-sociales">
+                <h3>Síguenos en redes</h3>
+                
+                <div class="redes-container">
+                    
+                    <a href="https://www.facebook.com/farmaciajoncarral" target="_blank" rel="noopener noreferrer" class="red-social">
+                        <div class="red-icono">
+                            <img src="fotos/facebook.jpg" alt="Facebook">
+                        </div>
+                        <span class="red-nombre">Facebook</span>
+                    </a>
+
+                    <a href="https://www.instagram.com/farmaciajoncarral/" target="_blank" rel="noopener noreferrer" class="red-social">
+                        <div class="red-icono">
+                            <img src="fotos/instagram.jpg" alt="Instagram">
+                        </div>
+                        <span class="red-nombre">Instagram</span>
+                    </a>
+
+                    <a href="https://maps.app.goo.gl/wm9yKZXTFr1TbmyE9" target="_blank" rel="noopener noreferrer" class="red-social">
+                        <div class="red-icono">
+                            <img src="fotos/maps.jpg" alt="Google Maps">
+                        </div>
+                        <span class="red-nombre">Maps</span>
+                    </a>
+
+                    <a href="https://wa.me/34688727564" target="_blank" rel="noopener noreferrer" class="red-social whatsapp">
+                        <div class="whatsapp-boton">
+                            <img src="fotos/whatsapp.jpg" alt="WhatsApp">
+                            <span>688 72 75 64</span>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <div class="footer-brand">🏥 Farmacia Jon Carral Tellitu</div>
+                    <p>Cuidando de tu salud desde 1992</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>C/ Lehendakari Aguirre, 67<br>Basauri</p>
+                    <p>944 49 05 44</p>
+                    <p>farmaciacarraltellitu@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Horario</h4>
+                    <p>L-V: 9:00-13:30 / 16:30-19:30</p>
+                    <p>S: 10:00-13:30</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>FARMACIA JON CARRAL TELLITU. 1992-2026</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botones flotantes -->
+    <div class="contacto-flotante">
+        <a href="tel:944490544" class="btn-flotante btn-llamada" title="Llamar a la farmacia">
+            <img src="fotos/telefono.jpg" alt="Llamar">
+            <span class="tooltip">944 49 05 44</span>
+        </a>
+        
+        <a href="https://wa.me/34688727564" target="_blank" rel="noopener noreferrer" class="btn-flotante btn-whatsapp" title="WhatsApp">
+            <img src="fotos/whatsapp.jpg" alt="WhatsApp">
+            <span class="tooltip">WhatsApp</span>
+        </a>
+    </div>
+
+    <script>
+        const navbarToggle = document.getElementById('navbarToggle');
+        const navbarMenu = document.getElementById('navbarMenu');
+        
+        navbarToggle.addEventListener('click', () => {
+            navbarMenu.classList.toggle('active');
+            navbarToggle.classList.toggle('active');
+        });
+        
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias | Farmacia Jon Carral Tellitu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="index.html" class="navbar-brand">
+                <span>🏥</span>
+                Farmacia Jon Carral Tellitu
+            </a>
+            <ul class="navbar-menu" id="navbarMenu">
+                <li><a href="index.html" class="navbar-link">Inicio</a></li>
+                <li><a href="secciones.html" class="navbar-link">Secciones</a></li>
+                <li><a href="servicios.html" class="navbar-link">Servicios</a></li>
+                <li><a href="ofertas.html" class="navbar-link">Ofertas</a></li>
+                <li><a href="noticias.html" class="navbar-link active">Noticias</a></li>
+                <li><a href="encuestas.html" class="navbar-link">Encuestas</a></li>
+                <li><a href="contacto.html" class="navbar-link btn-contact">Contacto</a></li>
+            </ul>
+            <div class="navbar-toggle" id="navbarToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-title">Noticias y Novedades</h1>
+            <p class="page-subtitle">Mantente informado sobre salud y bienestar</p>
+        </div>
+    </header>
+
+    <main class="section">
+        <div class="container">
+            <!-- SECCIÓN DE NOTICIAS -->
+            <div class="noticias-wrapper">
+                
+                <!-- NOTICIA DESTACADA: Lanzamiento web -->
+                <article class="card noticia-destacada animate-fadeInUp">
+                    
+                    <!-- Galería de fotos -->
+                    <div class="noticia-galeria">
+                        <h4>📸 Nuestra farmacia</h4>
+                        <div class="noticia-galeria-grid">
+                            <div class="noticia-galeria-item">
+                                <img src="fotos/entrada.jpg" alt="Entrada de la farmacia">
+                            </div>
+                            <div class="noticia-galeria-item destacada">
+                                <img src="fotos/fachada2.jpg" alt="Fachada principal">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Banner de nuevo -->
+                    <div class="noticia-banner">
+                        <span class="noticia-banner-icono">🚀</span>
+                        <span class="noticia-banner-texto">Nuevo</span>
+                    </div>
+                    
+                    <!-- Contenido -->
+                    <div class="noticia-contenido-destacado">
+                        <span class="noticia-fecha">12 Mar 2026</span>
+                        
+                        <h3 class="noticia-titulo">¡Bienvenidos a nuestra nueva web!</h3>
+                        
+                        <p class="noticia-texto">
+                            Con mucha ilusión arrancamos este proyecto digital para estar <strong>más cerca de ti</strong>. Hemos creado este espacio pensando en facilitarte la vida: consultar nuestros servicios, descubrir ofertas, leer consejos de salud y contactarnos de forma rápida y sencilla.
+                        </p>
+                        
+                        <p class="noticia-texto">
+                            Nuestro deseo es que esta web te resulte <strong>útil, cercana y profesional</strong>. Queremos ayudarte a cuidar de tu salud y la de los tuyos, con la misma dedicación y cariño que ponemos cada día en el mostrador.
+                        </p>
+                        
+                        <div class="noticia-cita">
+                            "Gracias por confiar en nosotros desde 1992.<br>Esta web es para ti."
+                        </div>
+                        
+                        <div class="noticia-tags">
+                            <span class="noticia-tag">💻 Web nueva</span>
+                            <span class="noticia-tag">❤️ Más cerca de ti</span>
+                            <span class="noticia-tag">🎉 34 años contigo</span>
+                        </div>
+                        
+                        <a href="contacto.html" class="btn btn-primary">Cuéntanos qué te parece →</a>
+                    </div>
+                </article>
+
+                <!-- LISTADO DE NOTICIAS -->
+                <h2 style="color: var(--primary); margin: 3rem 0 1.5rem; font-size: 1.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <span>📰</span> Todas las Noticias
+                </h2>
+
+                <div class="noticias-grid" id="noticiasContainer">
+                    
+                    <!-- NOTICIA 1: Taller Eucerin -->
+                    <article class="card noticia-grande animate-fadeInUp stagger-1">
+                        <div class="noticia-imagen-container">
+                            <img src="fotos/eucerin.jpg" alt="Taller de rutina facial con Eucerin" class="noticia-imagen-grande">
+                            <div class="noticia-overlay">
+                                <span class="noticia-badge-overlay">🎁 Regalo incluido</span>
+                                <div class="noticia-titulo-overlay">
+                                    <span style="font-size: 3rem; display: block; margin-bottom: 0.5rem;">💆‍♀️</span>
+                                    <h3>Taller Gratuito: Rutina Facial Perfecta</h3>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="noticia-contenido-grande">
+                            <div class="noticia-meta">
+                                <span class="noticia-fecha-grande">20 Abr 2026</span>
+                                <span class="noticia-dia">📅 LUNES</span>
+                            </div>
+                            
+                            <p class="noticia-descripcion">
+                                ¿Quieres lucir una piel radiante y saludable? 
+                                <strong>Apúntate a nuestro taller exclusivo con Eucerin</strong> y descubre los secretos de una rutina facial completa adaptada a tu tipo de piel.
+                            </p>
+                            
+                            <div class="noticia-detalles">
+                                <h4>📋 Detalles del taller</h4>
+                                <div class="detalles-grid">
+                                    <div class="detalle-item">
+                                        <span class="detalle-icono">📅</span>
+                                        <div class="detalle-info">
+                                            <small>Fecha</small>
+                                            <strong>Lunes 20 de abril</strong>
+                                        </div>
+                                    </div>
+                                    <div class="detalle-item">
+                                        <span class="detalle-icono">🕐</span>
+                                        <div class="detalle-info">
+                                            <small>Horario</small>
+                                            <strong>11:00 - 13:00 h</strong>
+                                        </div>
+                                    </div>
+                                    <div class="detalle-item">
+                                        <span class="detalle-icono">📍</span>
+                                        <div class="detalle-info">
+                                            <small>Lugar</small>
+                                            <strong>Nuestra farmacia</strong>
+                                        </div>
+                                    </div>
+                                    <div class="detalle-item">
+                                        <span class="detalle-icono">💰</span>
+                                        <div class="detalle-info">
+                                            <small>Precio</small>
+                                            <strong class="detalle-precio">Gratuito</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="noticia-aviso">⚠️ Plazas limitadas - Reserva la tuya cuanto antes</p>
+                            </div>
+                            
+                            <p class="noticia-incluye">
+                                <strong>¿Qué incluye?</strong> Asesoramiento personalizado por parte de nuestras expertas, muestras de productos Eucerin para probar en casa y un <strong>regalo sorpresa</strong> para todos los asistentes al completar el taller.
+                            </p>
+                            
+                            <div class="noticia-tags-lista">
+                                <span class="noticia-tag-item">✨ Eucerin</span>
+                                <span class="noticia-tag-item">🧴 Dermocosmética</span>
+                                <span class="noticia-tag-item">🎁 Kit regalo</span>
+                                <span class="noticia-tag-item">👩‍⚕️ Expertas</span>
+                            </div>
+                            
+                            <a href="contacto.html" class="btn-noticia-grande">
+                                Reserva tu plaza ahora →
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+
+                <!-- BOTÓN CARGAR MÁS -->
+                <div style="text-align: center; margin: 3rem 0;">
+                    <button id="btnCargarMas" class="btn btn-outline" onclick="cargarMasNoticias()" style="display: none;">
+                        Cargar más noticias ↓
+                    </button>
+                    <p id="mensajeFinal" style="color: var(--gray-dark); font-style: italic; margin-top: 1rem;">
+                        Próximamente más noticias
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- NEWSLETTER -->
+            <div class="newsletter-box animate-fadeInUp">
+                <h2>📰 Suscríbete a Nuestro Boletín</h2>
+                <p>Recibe las últimas noticias y ofertas exclusivas directamente en tu email.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+
+            <!-- REDES SOCIALES -->
+            <div class="redes-sociales">
+                <h3>Síguenos en redes</h3>
+                
+                <div class="redes-container">
+                    
+                    <a href="https://www.facebook.com/farmaciajoncarral" target="_blank" rel="noopener noreferrer" class="red-social">
+                        <div class="red-icono">
+                            <img src="fotos/facebook.jpg" alt="Facebook">
+                        </div>
+                        <span class="red-nombre">Facebook</span>
+                    </a>
+
+                    <a href="https://www.instagram.com/farmaciajoncarral/" target="_blank" rel="noopener noreferrer" class="red-social">
+                        <div class="red-icono">
+                            <img src="fotos/instagram.jpg" alt="Instagram">
+                        </div>
+                        <span class="red-nombre">Instagram</span>
+                    </a>
+
+                    <a href="https://maps.app.goo.gl/wm9yKZXTFr1TbmyE9" target="_blank" rel="noopener noreferrer" class="red-social">
+                        <div class="red-icono">
+                            <img src="fotos/maps.jpg" alt="Google Maps">
+                        </div>
+                        <span class="red-nombre">Maps</span>
+                    </a>
+
+                    <a href="https://wa.me/34688727564" target="_blank" rel="noopener noreferrer" class="red-social whatsapp">
+                        <div class="whatsapp-boton">
+                            <img src="fotos/whatsapp.jpg" alt="WhatsApp">
+                            <span>688 72 75 64</span>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <div class="footer-brand">🏥 Farmacia Jon Carral Tellitu</div>
+                    <p>Cuidando de tu salud desde 1992</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>C/ Lehendakari Aguirre, 67<br>Basauri</p>
+                    <p>944 49 05 44</p>
+                    <p>farmaciacarraltellitu@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Horario</h4>
+                    <p>L-V: 9:00-13:30 / 16:30-19:30</p>
+                    <p>S: 10:00-13:30</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>FARMACIA JON CARRAL TELLITU. 1992-2026</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botones flotantes -->
+    <div class="contacto-flotante">
+        <a href="tel:944490544" class="btn-flotante btn-llamada" title="Llamar a la farmacia">
+            <img src="fotos/telefono.jpg" alt="Llamar">
+            <span class="tooltip">944 49 05 44</span>
+        </a>
+        
+        <a href="https://wa.me/34688727564" target="_blank" rel="noopener noreferrer" class="btn-flotante btn-whatsapp" title="WhatsApp">
+            <img src="fotos/whatsapp.jpg" alt="WhatsApp">
+            <span class="tooltip">WhatsApp</span>
+        </a>
+    </div>
+
+    <script>
+        // Menú móvil
+        const navbarToggle = document.getElementById('navbarToggle');
+        const navbarMenu = document.getElementById('navbarMenu');
+        
+        navbarToggle.addEventListener('click', () => {
+            navbarMenu.classList.toggle('active');
+            navbarToggle.classList.toggle('active');
+        });
+        
+        // Navbar scroll
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Simulación de carga de más noticias
+        function cargarMasNoticias() {
+            const btn = document.getElementById('btnCargarMas');
+            const mensaje = document.getElementById('mensajeFinal');
+            
+            btn.style.display = 'none';
+            mensaje.textContent = 'No hay más noticias para mostrar';
+        }
+    </script>
+</body>
+</html>
